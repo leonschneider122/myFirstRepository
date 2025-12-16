@@ -1,9 +1,9 @@
 import { type Express, type Request, type Response } from 'express'
-import { db } from './database';
-import { postTable } from './db/schema';
+import { db } from '../database';
+import { postTable } from '../db/schema';
 import { eq } from 'drizzle-orm';
 
-export const initializeAPI = (app: Express) => {
+export const initializePostsAPI = (app: Express) => {
 
 
     /*let posts = [

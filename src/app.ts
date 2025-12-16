@@ -1,6 +1,6 @@
 import express, { type Express, type Request, type Response } from 'express'
 
-import { initializeAPI } from './api'
+import { initializeAPI } from './api/index'
 
 
 const app = express();
